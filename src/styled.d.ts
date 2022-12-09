@@ -2,8 +2,16 @@ import "styled-components"
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    textColor: string,
-    bgColor: string,
-    activeColor: string
+    vertical:{
+      textColor: string,
+      bgColor: string,
+      activeColor: string,
+      iconColor: string,
+    },
+    StickySliderNav: {
+      bgColor: string,
+      lineColor: string,
+      highLightColor: string,
+    }
   }
 }

@@ -1,22 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import VerticalTab from "./components/VerticalTab";
+import StickySliderNav from "./components/StickySliderNav";
+import VerticalTab from "./components/Vertical/VerticalTab";
 
 function App() {
-  return (
-    <Container>
-      <VerticalTab />
-    </Container>
-  );
+  return <VerticalTab />;
 }
 
 export default App;
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: ${({theme}) => theme.bgColor};
-`;
