@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-import StickySliderNav from "./components/StickySliderNav";
-import VerticalTab from "./components/Vertical/VerticalTab";
+import StickySliderNav from "./components/StickySliderNav/StickySliderNav";
 
 function App() {
-  return <VerticalTab />;
+  return(
+    <StickySliderNav />
+  )
 }
 
 export default App;
